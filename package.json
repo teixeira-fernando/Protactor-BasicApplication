@@ -1,0 +1,30 @@
+{
+  "name": "protactor-style-guide",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^3.3.0",
+    "protractor": "^4.0.3"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^4.2.1",
+    "cucumber-html-report": "^0.6.5",
+    "protractor-cucumber-framework": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "app.module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassioafs/pokedex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassioafs/pokedex/issues"
+  },
+  "homepage": "https://github.com/cassioafs/pokedex#readme",
+  "description": ""
+}
