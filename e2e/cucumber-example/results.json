@@ -1,0 +1,60 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Busca de pokémons",
+    "line": 2,
+    "id": "busca-de-pokémons",
+    "tags": [],
+    "uri": "features\\busca.pokemon.feature",
+    "elements": [
+      {
+        "id": "busca-de-pokémons;pesquisa-de-pelo-nome-do-pokémon",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Pesquisa de pelo nome do pokémon",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que eu estou na tela de listagem de pokémons",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "eu digito \"mew\" no campo de pesquisa",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 7,
+            "name": "devo visulizar dois pokémons no resultado",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

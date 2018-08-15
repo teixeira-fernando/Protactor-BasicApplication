@@ -2,6 +2,8 @@
   "name": "protactor-style-guide",
   "version": "1.0.0",
   "devDependencies": {
+    "cucumber-html-reporter": "^4.0.3",
+    "cucumber-pretty": "^1.4.4",
     "jasmine-spec-reporter": "^3.3.0",
     "protractor": "^4.0.3"
   },

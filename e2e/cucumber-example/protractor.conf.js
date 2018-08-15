@@ -18,7 +18,7 @@ exports.config = {
     require: [
           'features/step_definitions/*.step.js',
           ],
-    format: ['json:results.json', 'pretty'],
+    format: ['json:results.json', '../../node_modules/cucumber-pretty'],
     profile: false,
     'no-source': true,
   },
